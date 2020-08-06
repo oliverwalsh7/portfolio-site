@@ -89,11 +89,19 @@ const theme = {
       ),
       viewBox: '.5 -.2 1023 1024.1'
     },
-    react2025: {
+    gradewizard: {
       path: (
         <g fill="currentColor">
-          <path d="M0 296V8.5H231.5V89L170.5 150L258.5 238H174L86 150L170.5 65.5H58V238L0 296Z" />
+          <path d="M132 44 L132 44 L115 20 L70 5 L59 6 L52 11 L45 15 L40 25 L 35 37 L 35 44 L28 48 L28 52 L31 58 L28 62 L30 68 L29 100 L31 121 L14 125 L4 130 L1 140 L15 168 L30 173 L59 165 L108 167 L153 163 L174 163 L179 155 L179 150 L168 125 L 153 115 L137 117 L104 84 L106 78 L100 72 L101 68 L93 64 L95 60 L83 44 L82 40 L89 32 L99 30 L118 43 L132 44' stroke='#27276e' fill='#283891" />
         </g>
+      ),
+      viewBox: '0 0 267 305'
+    },
+    robot: {
+      path: (
+          <g fill="currentColor">
+            <a href="https://orioniconlibrary.com/icon/brain-6502" />
+          </g>
       ),
       viewBox: '0 0 267 305'
     },

@@ -1,16 +1,16 @@
 {
-  "name": "leerob.io",
-  "description": "My personal website.",
+  "name": "walshweb",
+  "description": "My personal website",
   "version": "0.0.0",
   "author": {
-    "name": "Lee Robinson",
-    "email": "me@leerob.io",
-    "url": "https://leerob.io"
+    "name": "Oliver Walsh",
+    "email": "oliverwalsh7@gmail.com",
+    "url": "https://vasilioswalsh.com"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leerob/leerob.io.git"
+    "url": "git+https://github.com/oliverwalsh7/personal-site.git"
   },
   "scripts": {
     "build": "next build",
