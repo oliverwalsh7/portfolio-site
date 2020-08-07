@@ -58,9 +58,10 @@ const Index = () => {
             icon="gradewizard"
           />
           <ProjectCard
-              title="The Grade Wizard"
-              description="For students to optimize their GPA's after COVID moved many universities nationwide to adopt a pass-fail grading policy."
-              href="https://thegradewizard.com"
+              title="TensorFlow & Machine Learning"
+              description="Here's a link to my github machine learning repo. One of my favorite hobbies is applying ML
+              to large datasets. I hope one day I can be implementing ML full time!"
+              href=""
               icon="robot"
           />
         </Flex>

@@ -23,7 +23,7 @@ const prettier = require('prettier');
 
                 return `
                         <url>
-                            <loc>${`https://leerob.io${route}`}</loc>
+                            <loc>${`https://vasilioswalsh.com${route}`}</loc>
                         </url>
                     `;
               })
