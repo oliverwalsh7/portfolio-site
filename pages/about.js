@@ -7,7 +7,8 @@ import {
     Flex,
     Stack,
     Link,
-    Icon
+    Icon,
+    Image
 } from '@chakra-ui/core';
 
 import Container from '../components/Container';
@@ -48,11 +49,12 @@ const About = () => {
                         alignItems="flex-start"
                         maxWidth="700px"
                     >
+                        <Image src="/static/images/Nasdaq.png" pb={50}/>
                         <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
                             About Me
                         </Heading>
                         <Text color={secondaryTextColor[colorMode]} mb={4}>
-                            I'm Vasilios Walsh. Most people really know me as Oliver, which is certainly understandable.
+                            I'm Vasilios. Most people really know me as Oliver, which is certainly understandable.
                         </Text>
                         <Text color={secondaryTextColor[colorMode]} mb={4}>
                             I'm currently a 21 year old computer scientist & programmer, originating from Philadelphia.
@@ -76,61 +78,26 @@ const About = () => {
                             I'm learning in order to be as impactful as I can, so one day I can code my own dreams into reality.
                         </Text>
                         <Heading letterSpacing="tight" mt={8} mb={4} as="h2" size="xl">
-                            Skills & Programming Languages
+                            Programming Languages & Tech
                         </Heading>
                         <Heading size="md" as="h3" mb={2} fontWeight="medium">
-                            <Icon name="javascript" />
+                            Proficient:
                         </Heading>
-                        <Text color={secondaryTextColor[colorMode]} mb={8}>
-                            During this workshop, you'll learn how to integrate Prisma with
-                            Next.js and build a statically-generated site that displays a list
-                            of your favorite songs. We'll use Chakra UI for styling and deploy
-                            our site with Vercel.
+                        <Text color={secondaryTextColor[colorMode]} mb={4}>
+                            Java 14, JavaScript ES6+, TypeScript, Python, HTML5, CSS3/SASS/SCSS, React, Vue, Node.js, SQL, PostgreSQL, C & C++, RESTful APIs, UNIX, Git
                         </Text>
                         <Heading size="md" as="h3" mb={2} fontWeight="medium">
-                            <Link
-                                display="flex"
-                                href="/building-component-libraries-with-a-monorepo.pdf"
-                                isExternal
-                            >
-                                <Flex align="center">
-                                    Building Component Libraries with a Monorepo
-                                    <Icon name="external-link" mx={2} size="16px"/>
-                                </Flex>
-                            </Link>
+                            Very Comfortable:
                         </Heading>
-                        <Text color={secondaryTextColor[colorMode]} mb={8}>
-                            Learn why your organization needs a component library and discover
-                            the best practices for building, scaling, and adopting it across
-                            all platforms. We'll be using industry-standard technology (React,
-                            JavaScript, Storybook) alongside cutting-edge solutions
-                            (CSS-in-JS, Monorepo).
+                        <Text color={secondaryTextColor[colorMode]} mb={4}>
+                           JDBC, Linux (Arch, Kali), TensorFlow & PyTorch, OracleDB, MongoDB, Docker, Firebase, Rust, Swift
                         </Text>
                         <Heading size="md" as="h3" mb={2} fontWeight="medium">
-                            <Link
-                                display="flex"
-                                href="/recruiting-engineers-talent42-lee-robinson.pdf"
-                                isExternal
-                            >
-                                <Flex align="center">
-                                    Recruiting Engineers (From An Engineer's Perspective)
-                                    <Icon name="external-link" mx={2} size="16px"/>
-                                </Flex>
-                            </Link>
+                            Strongly Familiar:
                         </Heading>
-                        <Text color={secondaryTextColor[colorMode]} mb={8}>
-                            Hiring talent is becoming increasingly difficult with low
-                            unemployment rates and the tech industry booming. What you can do
-                            to stick out? Learn from an engineer who's been involved on both
-                            sides - both as a candidate and with hiring - on what candidates
-                            really want out of a position.
+                        <Text color={secondaryTextColor[colorMode]} mb={4}>
+                            C#, Heroku Cloud, Amazon Web Services, Microsoft Azure, express.js, Scala, PHP
                         </Text>
-                        <iframe
-                            height="280"
-                            src="https://www.google.com/maps/d/embed?mid=1QOGi-u8d4vwoQ4vC4zQjKxrSfsDIQdOK&hl=en"
-                            title="Lee's Travel Map"
-                            width="100%"
-                        />
                     </Flex>
                 </Stack>
             </Container>

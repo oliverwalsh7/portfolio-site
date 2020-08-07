@@ -30,68 +30,6 @@
     }
   ],
   "headers": [
-    {
-      "source": "/api/unsplash",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=1200, stale-while-revalidate=600"
-        }
-      ]
-    },
-    {
-      "source": "/api/youtube",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=120, stale-while-revalidate=60"
-        }
-      ]
-    },
-    {
-      "source": "/api/subscribers",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=1200, stale-while-revalidate=600"
-        }
-      ]
-    },
-    {
-      "source": "/api/gumroad",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=120, stale-while-revalidate=60"
-        }
-      ]
-    },
-    {
-      "source": "/api/github",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=120, stale-while-revalidate=60"
-        }
-      ]
-    },
-    {
-      "source": "/api/now-playing",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=60, stale-while-revalidate=30"
-        }
-      ]
-    },
-    {
-      "source": "/api/top-tracks",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=86400, stale-while-revalidate=43200"
-        }
-      ]
-    }
+
   ]
 }

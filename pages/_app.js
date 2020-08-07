@@ -24,7 +24,7 @@ const GlobalStyle = ({ children }) => {
       <CSSReset />
       <Global
         styles={css`
-          ${colorMode === 'light' ? prismLightTheme : prismDarkTheme};
+          ${colorMode === 'light' ? prismDarkTheme : prismLightTheme};
 
           ::selection {
             background-color: #47a3f3;
@@ -57,7 +57,7 @@ const App = ({ Component, pageProps }) => {
   useEffect(() => {
     if (process.env.NODE_ENV === 'production') {
       Fathom.load(process.env.NEXT_PUBLIC_FATHOM_SITE_ID, {
-        includedDomains: ['leerob.io']
+        includedDomains: ['vasilioswalsh.com']
       });
     }
   }, []);
@@ -65,7 +65,7 @@ const App = ({ Component, pageProps }) => {
   return (
     <ThemeProvider theme={theme}>
       <MDXProvider components={MDXComponents}>
-        <ColorModeProvider value="light">
+        <ColorModeProvider value="dark">
           <GlobalStyle>
             <DefaultSeo {...SEO} />
             <Component {...pageProps} />

@@ -1,11 +1,8 @@
 import React from 'react';
 import { Flex, Link, IconButton } from '@chakra-ui/core';
 
-import NowPlaying from './NowPlaying';
-
 const Footer = () => (
   <Flex align="center" mb={4} direction="column">
-    <NowPlaying />
     <div>
       <Link href="https://twitter.com/leeerob" title="Twitter" isExternal>
         <IconButton
@@ -38,7 +35,7 @@ const Footer = () => (
           variant="ghost"
         />
       </Link>
-      <Link href="mailto:me@leerob.io" title="Email" isExternal>
+      <Link href="mailto:oliverwalsh7@gmail.com" title="Email" isExternal>
         <IconButton
           aria-label="Email"
           icon="mail"
