@@ -1,20 +1,20 @@
-const title = 'Lee Robinson – Developer, writer, creator.';
+const title = 'V. Oliver Walsh - Software Developer';
 const description =
-  'Front-end developer, JavaScript enthusiast, and course creator.';
+  'Personal site.';
 
 const SEO = {
   title,
   description,
-  canonical: 'https://leerob.io',
+  canonical: 'https://vasilioswalsh.com',
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    url: 'https://leerob.io',
+    url: 'https://vasilioswalsh.com',
     title,
     description,
     images: [
       {
-        url: 'https://leerob.io/static/images/og.jpg',
+        url: 'https://vasilioswalsh/static/images/og.jpg',
         alt: title,
         width: 1280,
         height: 720
@@ -22,8 +22,8 @@ const SEO = {
     ]
   },
   twitter: {
-    handle: '@leeerob',
-    site: '@leeerob',
+    handle: '@ogvasilios',
+    site: '@ogvasilios',
     cardType: 'summary_large_image'
   }
 };
