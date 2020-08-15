@@ -73,7 +73,7 @@ const About = () => {
             <Text color={secondaryTextColor[colorMode]} mb={4}>
               I'm a firm believer that the exponential increase of technology
               will change our world drastically. This is why every day I am
-              excited to wake up and experience the future as it unfolds, and
+              excited to wake up and experience the future as it unfolds, and am
               perpetually motivated to achieve greater feats.
             </Text>
             <Text color={secondaryTextColor[colorMode]} mb={4}>
