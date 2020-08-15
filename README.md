@@ -1,6 +1,6 @@
 # vasilioswalsh.com
 shout out lee robinson!
-summer2020
+
 
 nextjs
 ## Running Locally
