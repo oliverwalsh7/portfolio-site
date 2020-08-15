@@ -19,9 +19,8 @@ import BlogPost from '../components/BlogPost';
 import { frontMatter as blogPosts } from './blog/**/*.mdx';
 
 const url = 'https://vasilioswalsh.com/blog';
-const title = 'Blog – Oliver Walsh';
-const description =
-  'Flow of consciousness.';
+const title = 'Blog';
+const description = 'Thoughts on life.';
 
 const Blog = () => {
   const [searchValue, setSearchValue] = useState('');
@@ -71,8 +70,7 @@ const Blog = () => {
               Blog
             </Heading>
             <Text color={secondaryTextColor[colorMode]}>
-              {`Started this blog in August 2020.
-                ${blogPosts.length} articles are on this site.`}
+              {`I've written ${blogPosts.length} blogs so far!`}
             </Text>
             <InputGroup my={4} mr={4} w="100%">
               <Input
@@ -86,21 +84,21 @@ const Blog = () => {
             </InputGroup>
           </Flex>
           {!searchValue && (
-          <Flex
-            flexDirection="column"
-            justifyContent="flex-start"
-            alignItems="flex-start"
-            maxWidth="700px"
-            mt={8}
-          >
-            <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
-              All Posts
-            </Heading>
-            {!filteredBlogPosts.length && 'No posts found.'}
-            {filteredBlogPosts.map((frontMatter) => (
-              <BlogPost key={frontMatter.title} {...frontMatter} />
-            ))}
-          </Flex>
+            <Flex
+              flexDirection="column"
+              justifyContent="flex-start"
+              alignItems="flex-start"
+              maxWidth="700px"
+              mt={8}
+            >
+              <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
+                All Posts
+              </Heading>
+              {!filteredBlogPosts.length && 'No posts found.'}
+              {filteredBlogPosts.map((frontMatter) => (
+                <BlogPost key={frontMatter.title} {...frontMatter} />
+              ))}
+            </Flex>
           )}
         </Stack>
       </Container>

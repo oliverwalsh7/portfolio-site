@@ -40,8 +40,8 @@ const Container = ({ children }) => {
         bg={navBgColor[colorMode]}
         as="nav"
         p={8}
-        mt={[0, 8]}
-        mb={8}
+        mt={[0, 0]}
+        mb={4}
         mx="auto"
       >
         <Box>
@@ -55,12 +55,6 @@ const Container = ({ children }) => {
               About
             </Button>
           </NextLink>
-          <NextLink href="/blog" passHref>
-            <Button as="a" variant="ghost" p={[1, 4]}>
-              Blog
-            </Button>
-          </NextLink>
-
         </Box>
       </StickyNav>
       <Flex

@@ -35,7 +35,10 @@ export default (frontMatter) => {
 
     return (
       <Container>
-        <BlogSeo url={`https://leerob.io/blog/${slug}`} {...frontMatter} />
+        <BlogSeo
+          url={`https://vasilioswalsh.com/blog/${slug}`}
+          {...frontMatter}
+        />
         <Stack
           as="article"
           spacing={8}
