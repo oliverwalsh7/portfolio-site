@@ -1,5 +1,5 @@
 # vasilioswalsh.com
-shout out lee robinson!
+shout out lee robinson
 
 
 nextjs
