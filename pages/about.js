@@ -83,7 +83,7 @@ const About = () => {
               reality.
             </Text>
             <Heading letterSpacing="tight" mt={8} mb={4} as="h2" size="xl">
-              Programming Languages & Tech
+              Programming Languages & Technology
             </Heading>
             <Heading size="md" as="h3" mb={2} fontWeight="medium">
               Proficient:
