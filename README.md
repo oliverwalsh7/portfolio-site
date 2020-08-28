@@ -1,8 +1,6 @@
 # vasilioswalsh.com
 shout out lee robinson
 
-blog coming soon
-
 ## Running Locally
 
 ```bash
