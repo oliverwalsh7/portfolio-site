@@ -2,7 +2,7 @@
 ## Running Locally
 
 ```bash
-$ yarn dev
+$ yarn dev 
 ```
 
 ## Built Using
