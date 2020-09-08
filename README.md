@@ -2,7 +2,6 @@
 ## Running Locally
 
 ```bash
-$ yarn
 $ yarn dev
 ```
 
