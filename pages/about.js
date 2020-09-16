@@ -49,6 +49,12 @@ const About = () => {
             alignItems="flex-start"
             maxWidth="700px"
           >
+            <Image
+              src="/static/images/umcompahgre.jpg"
+              size={'85%'}
+              pt={0}
+              pb={5}
+            />
             <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
               About Me
             </Heading>
