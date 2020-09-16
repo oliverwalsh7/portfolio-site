@@ -1,13 +1,13 @@
 # vasilioswalsh.com
-shout out lee robinson
+blog coming soon
 
 
-nextjs
+
+
 ## Running Locally
 
 ```bash
-$ yarn
-$ yarn dev
+$ yarn dev 
 ```
 
 ## Built Using
