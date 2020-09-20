@@ -1,6 +1,4 @@
 # vasilioswalsh.com
-blog coming soon
-
 
 
 
