@@ -1,9 +1,5 @@
 # vasilioswalsh.com
 
-
-
-## Running Locally
-
 ```bash
 $ yarn dev 
 ```
