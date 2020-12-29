@@ -12,6 +12,8 @@ import {
   Divider
 } from '@chakra-ui/core';
 
+import { CustomLink } from '../components/MDXComponents';
+
 const YearDivider = () => {
   const { colorMode } = useColorMode();
   const borderColor = {
@@ -103,17 +105,32 @@ const Timeline = () => {
         2020
       </Heading>
       <List>
-        <TimelineStep title="Software Engineering Intern at Sony Research & Development">
-          Coding with Swift and React in an agile, sprint environment to make a
-          next-generation networking application. Collaborating with a
+        <TimelineStep title="Undergraduate Researcher with the Scalable Systems and Software Research Group">
+          Started researching with faculty, graduate students, & fellow
+          undergraduates with&nbsp;
+          <CustomLink href="http://sss.cse.lehigh.edu/">SSSRP</CustomLink> in
+          the fall of 2020. Reading academic papers, theorizing potential
+          developments in the blockchain space, developing innovative software.
+        </TimelineStep>
+        <TimelineStep title="Software Engineering Internship at Sony Research & Development">
+          Coded with Swift and React in an agile, sprint environment to make a
+          next-generation networking application to develop&nbsp;
+          <CustomLink href="https://apps.apple.com/us/app/presencetalk/id1534525635">
+            PresenceTalk
+          </CustomLink>{' '}
+          for college students around the country. Collaborated with a fantastic
           development team based in Japan and project leaders in San Mateo,
           California.
         </TimelineStep>
-        <TimelineStep title="Summer Software Development Intern at ecomedes">
-          Gained this wonderful experience thanks to the NASDAQ Entrepreneurial
-          Center in San Francisco. Integrated a PostgreSQL backend through
-          express.js & node into a Next.js driven frontend to provide insights
-          about user activity on various company platforms.
+        <TimelineStep title="Summer Software Development Internship at ecomedes">
+          Had the amazing opportunity to intern with software startup&nbsp;
+          <CustomLink href="https://fulcrum.ecomedes.com">
+            Ecomedes
+          </CustomLink>{' '}
+          in conjunction with the NASDAQ Entrepreneurial Center in San
+          Francisco. Integrated a PostgreSQL backend through express.js & node
+          into a Next.js driven frontend to provide insights about user activity
+          on various company platforms.
         </TimelineStep>
         <TimelineStep title="Started as a Software Engineer at Dolomite">
           Dolomite is a U.S. based decentralized cryptocurrency exchange.
@@ -142,10 +159,13 @@ const Timeline = () => {
         <TimelineStep title="Created the Lehigh Coders' Community">
           Had an epiphany which led to me starting a university-backed social
           network for computer scientists from LU. Worked hard to get student
-          senate approval, and blossomed to over 200 members within a year.
-          Facilitated lectures about programming and tech, collaborated with
-          other clubs on campus & from around the country (bitproject @ UC
-          Davis). Major hit!
+          senate approval, and blossomed to over 300 members within a year and a
+          half. Facilitated lectures about programming and tech, collaborated
+          with other clubs on campus & from around the country (&nbsp;
+          <CustomLink href="https://www.bitproject.org/">
+            bitproject
+          </CustomLink>{' '}
+          @ UC Davis ). Major hit!
         </TimelineStep>
         <TimelineStep title="Hired as a Junior Systems Administrator at Lehigh">
           Mentored by the head Systems Administrator on a frequent basis on how

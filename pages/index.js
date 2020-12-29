@@ -37,7 +37,6 @@ const Index = () => {
           alignItems="flex-start"
           maxWidth="700px"
         >
-          <Image src="/static/images/Nasdaq.png" pt={0} pb={50} />
           <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
             Vasilios Oliver Walsh
           </Heading>
@@ -46,6 +45,7 @@ const Index = () => {
             Philadelphia, PA.
           </Text>
         </Flex>
+        <Image src="/static/images/Nasdaq.png" pt={0} pb={0} />
         <Timeline />
         <Flex
           flexDirection="column"
@@ -54,20 +54,21 @@ const Index = () => {
           maxWidth="700px"
         >
           <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
-            Projects
+            Projects & Research
           </Heading>
+          <ProjectCard
+            title="Machine Learning"
+            description="Here's a link to my github machine learning repo. 
+            As I continue to develop as a programmer, ML will be my main focus.
+            Working hard to understand the complexities of the space!"
+            href="https://github.com/oliverwalsh7/machinelearning"
+            icon="robot"
+          />
           <ProjectCard
             title="The Grade Wizard"
             description="For students to optimize their GPA's after COVID moved many universities nationwide to adopt a pass-fail grading policy."
             href="https://thegradewizard.com"
             icon="gradewizard"
-          />
-          <ProjectCard
-            title="TensorFlow & Machine Learning"
-            description="Here's a link to my github machine learning repo. One of my favorite hobbies is applying ML
-              to large datasets. I hope one day I can be implementing ML full time!"
-            href="https://github.com/oliverwalsh7/machinelearning"
-            icon="robot"
           />
         </Flex>
       </Stack>

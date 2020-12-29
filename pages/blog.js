@@ -19,8 +19,8 @@ import BlogPost from '../components/BlogPost';
 import { frontMatter as blogPosts } from './blog/**/*.mdx';
 
 const url = 'https://vasilioswalsh.com/blog';
-const title = 'Blog';
-const description = 'Thoughts on life.';
+const title = 'Blog – Oliver Walsh';
+const description = 'Flow of consciousness.';
 
 const Blog = () => {
   const [searchValue, setSearchValue] = useState('');
@@ -70,7 +70,8 @@ const Blog = () => {
               Blog
             </Heading>
             <Text color={secondaryTextColor[colorMode]}>
-              {`I've written ${blogPosts.length} blogs so far!`}
+              {`Started this blog in August 2020.
+                ${blogPosts.length} articles are on this site.`}
             </Text>
             <InputGroup my={4} mr={4} w="100%">
               <Input

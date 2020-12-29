@@ -49,15 +49,15 @@ const About = () => {
             alignItems="flex-start"
             maxWidth="700px"
           >
-            <Image
-              src="/static/images/umcompahgre.jpg"
-              size={'85%'}
-              pt={0}
-              pb={5}
-            />
             <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
               About Me
             </Heading>
+            <Image
+              src="/static/images/umcompahgre.jpg"
+              size={'100%'}
+              pt={0}
+              pb={5}
+            />
             <Text color={secondaryTextColor[colorMode]} mb={4}>
               Welcome to my website!
             </Text>
@@ -97,21 +97,20 @@ const About = () => {
             <Text color={secondaryTextColor[colorMode]} mb={4}>
               Java 14, JavaScript ES6+, TypeScript, Python, HTML5,
               CSS3/SASS/SCSS, React, Vue, Node.js, SQL, PostgreSQL, C & C++,
-              RESTful APIs, UNIX, Git
+              RESTful APIs, UNIX, Git, Swift, Heroku Cloud, AWS
             </Text>
             <Heading size="md" as="h3" mb={2} fontWeight="medium">
               Very Comfortable:
             </Heading>
             <Text color={secondaryTextColor[colorMode]} mb={4}>
               JDBC, Linux (Arch, Kali), TensorFlow & PyTorch, OracleDB, MongoDB,
-              Docker, Firebase, Rust, Swift
+              Docker, Firebase, Rust
             </Text>
             <Heading size="md" as="h3" mb={2} fontWeight="medium">
               Strongly Familiar:
             </Heading>
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              C#, Heroku Cloud, Amazon Web Services, Microsoft Azure,
-              express.js, Scala, PHP
+              C#, Microsoft Azure, express.js, Scala, PHP
             </Text>
           </Flex>
         </Stack>

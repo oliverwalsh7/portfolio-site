@@ -7,8 +7,8 @@ const prismBaseTheme = css`
   }
   code[class*='language-'],
   pre[class*='language-'] {
-    color: ${theme.colors.gray[800]};
-    background: none;
+    color: ${theme.colors.black[800]};
+    background: black;
     font-family: ${theme.fonts.mono};
     font-size: ${theme.fontSizes[2]};
     text-align: left;
@@ -39,8 +39,8 @@ const prismBaseTheme = css`
   }
   :not(pre) > code[class*='language-'],
   pre[class*='language-'] {
-    background: ${theme.colors.gray[50]};
-    border: 1px solid ${theme.colors.gray[200]};
+    background: ${theme.colors.black[0]};
+    border: 1px solid ${theme.colors.black[200]};
     border-radius: ${theme.radii.lg};
   }
   /* Inline code */
@@ -165,7 +165,7 @@ export const prismDarkTheme = css`
   ${prismBaseTheme};
 
   :not(pre) > code[class*='language-'] {
-    background: #011627;
+    background: #ffffff;
   }
 
   .token.attr-name {
@@ -231,22 +231,22 @@ export const prismDarkTheme = css`
 
   code[class*='language-'],
   pre[class*='language-'] {
-    color: ${theme.colors.gray[50]};
+    color: ${theme.colors.black[0]};
   }
 
   :not(pre) > code[class*='language-'],
   pre[class*='language-'] {
-    background: ${theme.colors.gray[800]};
-    border: 1px solid ${theme.colors.gray[700]};
+    background: ${theme.colors.black[0]};
+    border: 1px solid ${theme.colors.black[700]};
   }
 
   .mdx-marker {
-    background-color: ${theme.colors.gray[700]};
+    background-color: ${theme.colors.black[700]};
   }
 
   .remark-code-title {
-    background: ${theme.colors.gray[700]};
-    color: ${theme.colors.gray[100]};
-    border: 1px solid ${theme.colors.gray[700]};
+    background: ${theme.colors.black[700]};
+    color: ${theme.colors.black[100]};
+    border: 1px solid ${theme.colors.black[700]};
   }
 `;
